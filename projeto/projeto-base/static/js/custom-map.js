@@ -26,7 +26,7 @@ var pointStyle = new ol.style.Style({
     image: new ol.style.Icon({
       color: '#4271AE',
       crossOrigin: 'anonymous',
-      src: 'static/img/dot.png',
+      src: 'static/img/newbar.png',
     })
 });
 
