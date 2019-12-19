@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.1.1/css/ol.css" type="text/css">	
+		<link rel="stylesheet" href="{{url_for('static', filename='css/custom.css')}}" type="text/css">
+			
+		<script src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.1.1/build/ol.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.min.js"></script>
+	
+		<title>Comparação entre bares que vendem Magnífica no Maranhão - SIG</title>
+	</head>
+	<body>
+		<div id="map" class="map">
+			<div class="legend">
+				<div class="legend-title">Legenda</div>
+				<div class="legend-body">
+					<div class="legend-item">
+						<div class="legend-item-icon"> 
+							<img src="static/img/bar.png" />
+						</div>
+						<div class="legend-item-contet">Bar</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="{{url_for('static', filename='js/custom-map.js')}}"></script>
+	</body>
+</html>
